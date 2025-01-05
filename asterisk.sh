@@ -24,7 +24,7 @@ rm /etc/asterisk/extensions.conf
 
 cd /etc/asterisk/
 
-wget https://raw.githubusercontent.com/amirhosseinchoghaei/sip-server-router/main/extensions.conf
+wget https://raw.githubusercontent.com/mrmotech/sip-server-router/main/extensions.conf
 
 echo "[simpletrans]
 type=transport
@@ -47,7 +47,7 @@ service asterisk restart
 
 cd
 
-rm -f gip.sh && wget https://raw.githubusercontent.com/amirhosseinchoghaei/sip-server-router/main/gip.sh && chmod 777 gip.sh
+rm -f gip.sh && wget https://raw.githubusercontent.com/mrmotech/sip-server-router/main/gip.sh && chmod 777 gip.sh
 
 cp gip.sh /sbin/gip
 
