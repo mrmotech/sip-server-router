@@ -11,13 +11,7 @@ NC='\033[0m' # No Color
 
 clear
 
-echo -e "${YELLOW}    ___    __  ___________  __  ______  __________ ___________   __
-   /   |  /  |/  /  _/ __ \/ / / / __ \/ ___/ ___// ____/  _/ | / /
-  / /| | / /|_/ // // /_/ / /_/ / / / /\__ \\__ \ / __/  / //  |/ /
- / ___ |/ /  / // // _  _/ __  / /_/ /___/ /__/ / /____/ // /|  /
-/_/  |_/_/  /_/___/_/ |_/_/ /_/\____//____/____/_____/___/_/ |_/
-
-  SIP Server Manager"
+echo -e "${YELLOW} SIP Server Manager"
 echo " "
 echo -e "${YELLOW} 1.${NC} ${CYAN} New SIP User ${NC}"
 echo -e "${YELLOW} 2.${NC} ${CYAN} Delete SIP User ${NC}"
